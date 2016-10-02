@@ -1,6 +1,12 @@
-function iterativeLog(array) {
-  array.forEach((element) => {
+/*function iterativeLog(array) {
+  array.forEach((element, index) => {
     console.log(`${array.indexOf(element)}: ${element}`);
+  })
+}*/
+
+function iterativeLog(array) {
+  array.forEach((element, index) => {
+    console.log(`${index}: ${element}`);
   })
 }
 
